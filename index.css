@@ -1,0 +1,136 @@
+:root {
+  --purple: #6E1682;
+  --pink: #c06a9a;
+  --orange: #c8845a;
+  --yellow: #c9b15a;
+}
+
+.profile-pic {
+   width: 180px;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+    border-radius: 20px;
+    display: block;
+margin: 0 auto;
+}
+
+
+header h1{
+   font-family: Cambria, Georgia, serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #ffff;
+}
+
+
+
+body{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 0;
+background-color: #ad72c2; 
+background: linear-gradient(#ad72c2, #ba80ae, #d1a184, #dbc372)
+}
+
+main{
+  margin-left: 160px;
+  padding: 20px;
+}
+
+header{
+  margin-left: 177px;
+}
+
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 160px;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;   
+    box-sizing: border-box; 
+       background: linear-gradient(
+    180deg,
+    #6E1682,
+    #8E4694,
+    #b86a8f,
+    #c8845a,
+    #c9b15a
+  );
+  
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
+.sidebar ul {
+ list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+}
+.sidebar a:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(122, 90, 166, 0.4),
+    rgba(192, 106, 154, 0.4)
+  );
+   transition: all 0.2s ease;
+}
+
+  .logo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+  background-color: #6E1682;
+}
+
+.contact {
+    margin-top: auto;     /* Pushes it to the bottom */
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.text {
+  background: rgba(255, 255, 255, 0.72);
+  padding: 40px 60px;
+  border-radius: 16px;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+
+
+

@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', 'Times New Roman', Times, serif, serif; 
+  color: #46284f;
+  background: linear-gradient(#ad72c2, #ba80ae, #d1a184, #dbc372)
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px 10px;
+  font-family: Cambria, Georgia, serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #ffff;
+}
+
+ .item {
+  background:#d9b8d8;
+  border-radius: 12px;
+  overflow: hidden; margin-bottom: 50px;
+   border: 3.5px solid white;
+}
+
+.item img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.item p {
+  margin: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.gallery {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
